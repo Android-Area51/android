@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="Android-Area51" fetch="http://github.com/" />
+  <remote  name="Android-Area51" fetch="http://github.com/Android-Area51/" />
   <default revision="refs/tags/2.3.7"
            sync-j="4" />
 
