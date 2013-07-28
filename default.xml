@@ -2,7 +2,6 @@
 <manifest>
 
   <remote  name="Android-Area51" fetch="http://github.com/" />
-  <remote  name="aosp" fetch="https://android.googlesource.com" />
   <default revision="2.3.7"
            sync-j="4" />
 
@@ -16,15 +15,12 @@
   <project path="cts" name="Android-Area51/android_cts" remote="Android-Area51" />
   <project path="dalvik" name="Android-Area51/platform_dalvik" remote="Android-Area51" />
   <project path="development" name="Android-Area51/platform_development" remote="Android-Area51" />
-  <project path="device/common" name="device/common" remote="aosp" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino"  remote="aosp" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit"  remote="aosp" />
-  <project path="device/htc/common" name="device/htc/common"  remote="aosp" />
-  <project path="device/htc/passion" name="device/htc/passion"  remote="aosp" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" remote="aosp" />
-  <project path="device/sample" name="device/sample"  remote="aosp" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo"  remote="aosp" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g"  remote="aosp" />
+  <project path="device/common" name="Android-Area51/android_device_common" remote="Android-Area51" />
+  <project path="device/htc/common" name="Android-Area51/android_device_htc_common"  remote="Android-Area51" />
+  <project path="device/htc/passion" name="Android-Area51/android_device_htc_passion"  remote="Android-Area51" />
+  <project path="device/htc/passion-common" name="Android-Area51/android_device_htc_passion-common" remote="Android-Area51" />
+  <project path="device/samsung/crespo" name="Android-Area51/android_device_samsung_crespo"  remote="Android-Area51" />
+  <project path="device/samsung/crespo4g" name="Android-Area51/android_device_samsung_crespo4g"  remote="Android-Area51" />
   <project path="external/apache-http" name="Android-Area51/external_apache-http" remote="Android-Area51" />
   <project path="external/astl" name="Android-Area51/external_astl" remote="Android-Area51" />
   <project path="external/bison" name="Android-Area51/external_bison" remote="Android-Area51" />
