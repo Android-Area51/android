@@ -2,8 +2,8 @@
 <manifest>
 
   <remote  name="Android-Area51" fetch="http://github.com/" />
-  <remote  name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/2.3.7_r1" />
-  <default revision="refs/tags/2.3.7"
+  <remote  name="aosp" fetch="https://android.googlesource.com" />
+  <default revision="2.3.7"
            sync-j="4" />
 
   <project path="build" name="Android-Area51/android_build" remote="Android-Area51">
