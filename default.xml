@@ -6,6 +6,7 @@
   <remote  name="CyanogenMod" fetch="http://github.com/" />
 
   <default revision="2.3.7"
+           revision="gingerbread"
            sync-j="4" />
 
   <project path="build" name="Android-Area51/android_build" remote="Android-Area51">
