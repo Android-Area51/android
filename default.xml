@@ -178,7 +178,7 @@
   <project path="system/vold" name="Android-Area51/system_vold" remote="Android-Area51" />
   <project path="system/wlan/ti" name="Android-Area51/system_wlan_ti" remote="Android-Area51" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="Android-Area51/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="CynaogenMod" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="Android-Area51/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="CyanogenMod" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="Android-Area51/android_vendor_tmobile_libs_com.tmobile.themes" remote="CyanogenMod" />
   <project path="vendor/tmobile/providers/ThemeManager" name="Android-Area51/android_vendor_tmobile_providers_ThemeManager" remote="CyanogenMod" />
   <project path="vendor/tmobile/themes/Androidian" name="Android-Area51/android_vendor_tmobile_themes_Androidian" remote="CyanogenMod" />
